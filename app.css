@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  background: #f5f8fa;
+}
+body header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.75rem 2.5rem 0 2.5rem;
+  padding-bottom: 1.875rem;
+  border-bottom: 1px solid #e0e6ea;
+}
+body header nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 2.625rem;
+}
+body header nav ul li a {
+  text-decoration: none;
+  color: #1d2c3c;
+  font-size: 0.875rem;
+}
+body main {
+  display: flex;
+  width: 55.75rem;
+  margin: 5.313rem auto;
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.0509803922);
+}
+body main section {
+  padding: 2.563rem 0 0 0;
+  background: #fff;
+}
+body main section form h1 {
+  color: #1d2c3c;
+  font-size: 1.875rem;
+  padding: 0 3rem 1.5rem 3rem;
+  border-bottom: 1px solid #f5f7fa;
+}
+body main section form .info {
+  padding: 2.125rem 3.063rem 2.563rem 3.063rem;
+  border-bottom: 1px solid #f5f7fa;
+}
+body main section form .info .inform {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #1d2c3c;
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+body main section form .info .inform span:first-child {
+  color: #548bc5;
+  border: 2px solid #548bc5;
+  padding: 0 0.3rem;
+  border-radius: 100px;
+  font-size: 1rem;
+}
+body main section form .info label {
+  display: block;
+  font-size: 0.875rem;
+}
+body main section form .info input {
+  height: 2.25rem;
+  margin-top: 0.438rem;
+  padding: 0 0.813rem;
+  background: #edeff2;
+  border: none;
+  font-size: 0.875rem;
+}
+body main section form .info .check {
+  margin-top: 0.563rem;
+  display: flex;
+  gap: 1.875rem;
+}
+body main section form .info .check .form-identity {
+  width: 50%;
+}
+body main section form .info .check .form-identity input {
+  width: 100%;
+}
+body main section form .identity {
+  margin-top: 0.938rem;
+}
+body main section form .identity input {
+  width: 23.125rem;
+}
+body main section form .identity-21 {
+  margin-top: 1.313rem;
+}
+body main section form .identity-21 .input-box {
+  display: flex;
+}
+body main section form .identity-21 .input-box input:first-child {
+  width: 70%;
+}
+body main section form .identity-21 .input-box input:nth-child(2) {
+  width: 15%;
+}
+body main section form .identity-21 .input-box input:last-child {
+  width: 15%;
+}
+body main section form .last-info {
+  text-align: center;
+  padding: 2.125rem 3.063rem 2.563rem 3.063rem;
+}
+body main section form .last-info button:first-child {
+  width: 100%;
+  background: #038e7d;
+  color: #fff;
+  border: none;
+  height: 3.25rem;
+  font-size: 1.125rem;
+}
+body main section form .last-info p {
+  margin: 1.5rem 0;
+  font-size: 0.875rem;
+  color: #646e7a;
+}
+body main section form .last-info p span:first-child {
+  color: #548bc5;
+  border: 2px solid #548bc5;
+  padding: 0 0.4rem;
+  margin-right: 5px;
+  border-radius: 100px;
+  font-size: 1rem;
+}
+body main section form .last-info p span:last-child {
+  font-weight: 700;
+  color: #1d2c3c;
+}
+body main section form .last-info .btn {
+  background: #566473;
+  border: none;
+  color: #fff;
+  width: 5.75rem;
+  height: 20.1px;
+  font-size: 0.5rem;
+}
+body main section form .last-info .btn span {
+  font-weight: 700;
+}
+body main aside {
+  background: #1179bf;
+  width: 19.5rem;
+  color: #fff;
+  padding: 2.625rem 2.75rem;
+}
+body main aside h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+body main aside .check-space {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 2.375rem 0;
+}
+body main aside .check-space .check span:first-child {
+  border: 1px solid rgba(255, 255, 255, 0.3333333333);
+  padding: 0.1rem 0.3rem;
+  border-radius: 100px;
+}
+body main aside a {
+  display: block;
+  color: #fff;
+  font-weight: 700;
+  padding: 0.5rem 0 2.563rem 0;
+  border-bottom: 1px solid #fff;
+}
+body main aside .ftp {
+  font-size: 1.125rem;
+  margin: 2.563rem 0 1.063rem 0;
+}
+body main aside .last {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+body main aside .last span {
+  font-weight: 700;
+}/*# sourceMappingURL=app.css.map */
